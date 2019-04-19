@@ -1,0 +1,250 @@
+2019-03-20 17:49:33 INFO  root:45 - printer created 
+2019-03-20 17:49:33 INFO  root:70 - teams added
+2019-03-20 17:49:33 INFO  root:11 - 	All employees in ITCompany:
+2019-03-20 17:49:33 INFO  root:11 - 	ITCompany
+Разработчик {имя 'John ', фамилия 'Conor ', зарплата в час 50.0, уровень = MIDDLE, направление = BACK_END, навык ='Java'}
+Разработчик {имя 'Donald ', фамилия 'Freeman ', зарплата в час 46.0, уровень = MIDDLE, направление = BACK_END, навык ='C++'}
+Разработчик {имя 'Cris ', фамилия 'Norman ', зарплата в час 42.0, уровень = MIDDLE, направление = BACK_END, навык ='Python'}
+Разработчик {имя 'Jack ', фамилия 'Gilbert ', зарплата в час 52.0, уровень = SENIOR, направление = FRONT_END, навык ='HTML'}
+Разработчик {имя 'Jack ', фамилия 'Harrison ', зарплата в час 32.0, уровень = JUNIOR, направление = FRONT_END, навык ='CSS'}
+Разработчик {имя 'Carroll ', фамилия 'Anderson ', зарплата в час 48.0, уровень = SENIOR, направление = FRONT_END, навык ='JavaScript'}
+Tester {имя 'Alex ', фамилия 'Miller ', зарплата в час 30.0, уровень = MIDDLE, testerType=MANUAL}
+Tester {имя 'Tom ', фамилия 'Gibbs ', зарплата в час 25.0, уровень = JUNIOR, testerType=MANUAL}
+Tester {имя 'Hailey ', фамилия 'Conor ', зарплата в час 34.0, уровень = SENIOR, testerType=AUTOMATION}
+Tester {имя 'Oliver ', фамилия 'Watson ', зарплата в час 31.0, уровень = MIDDLE, testerType=AUTOMATION}
+ProjectManager {имя 'Scott ', фамилия 'Johnson ', зарплата в час 60.0, project='Online-Store'}
+ProjectManager {имя 'Martin ', фамилия 'Thompson ', зарплата в час 51.0, project='Game'}
+	Team on project "Online-Store"
+manager = ProjectManager {имя 'Scott ', фамилия 'Johnson ', зарплата в час 60.0, project='Online-Store'},
+engineers = 
+Разработчик {имя 'John ', фамилия 'Conor ', зарплата в час 50.0, уровень = MIDDLE, направление = BACK_END, навык ='Java'}
+Разработчик {имя 'Jack ', фамилия 'Gilbert ', зарплата в час 52.0, уровень = SENIOR, направление = FRONT_END, навык ='HTML'}
+Tester {имя 'Alex ', фамилия 'Miller ', зарплата в час 30.0, уровень = MIDDLE, testerType=MANUAL}
+Tester {имя 'Hailey ', фамилия 'Conor ', зарплата в час 34.0, уровень = SENIOR, testerType=AUTOMATION}
+	Team on project "Game"
+manager = ProjectManager {имя 'Martin ', фамилия 'Thompson ', зарплата в час 51.0, project='Game'},
+engineers = 
+Разработчик {имя 'Donald ', фамилия 'Freeman ', зарплата в час 46.0, уровень = MIDDLE, направление = BACK_END, навык ='C++'}
+Разработчик {имя 'Jack ', фамилия 'Harrison ', зарплата в час 32.0, уровень = JUNIOR, направление = FRONT_END, навык ='CSS'}
+Tester {имя 'Tom ', фамилия 'Gibbs ', зарплата в час 25.0, уровень = JUNIOR, testerType=MANUAL}
+Tester {имя 'Oliver ', фамилия 'Watson ', зарплата в час 31.0, уровень = MIDDLE, testerType=AUTOMATION}
+
+2019-03-20 17:49:34 INFO  root:11 - 	Team 1 total price 226.0$ per hour
+2019-03-20 17:49:34 INFO  root:11 - 	Team 2 total price 185.0$ per hour
+2019-03-20 17:49:34 INFO  root:33 - sorting by salary is successful
+2019-03-20 17:49:34 INFO  root:11 - 
+	Sorting employees by salary:
+2019-03-20 17:49:34 INFO  root:11 - 	ITCompany
+Tester {имя 'Tom ', фамилия 'Gibbs ', зарплата в час 25.0, уровень = JUNIOR, testerType=MANUAL}
+Tester {имя 'Alex ', фамилия 'Miller ', зарплата в час 30.0, уровень = MIDDLE, testerType=MANUAL}
+Tester {имя 'Oliver ', фамилия 'Watson ', зарплата в час 31.0, уровень = MIDDLE, testerType=AUTOMATION}
+Разработчик {имя 'Jack ', фамилия 'Harrison ', зарплата в час 32.0, уровень = JUNIOR, направление = FRONT_END, навык ='CSS'}
+Tester {имя 'Hailey ', фамилия 'Conor ', зарплата в час 34.0, уровень = SENIOR, testerType=AUTOMATION}
+Разработчик {имя 'Cris ', фамилия 'Norman ', зарплата в час 42.0, уровень = MIDDLE, направление = BACK_END, навык ='Python'}
+Разработчик {имя 'Donald ', фамилия 'Freeman ', зарплата в час 46.0, уровень = MIDDLE, направление = BACK_END, навык ='C++'}
+Разработчик {имя 'Carroll ', фамилия 'Anderson ', зарплата в час 48.0, уровень = SENIOR, направление = FRONT_END, навык ='JavaScript'}
+Разработчик {имя 'John ', фамилия 'Conor ', зарплата в час 50.0, уровень = MIDDLE, направление = BACK_END, навык ='Java'}
+ProjectManager {имя 'Martin ', фамилия 'Thompson ', зарплата в час 51.0, project='Game'}
+Разработчик {имя 'Jack ', фамилия 'Gilbert ', зарплата в час 52.0, уровень = SENIOR, направление = FRONT_END, навык ='HTML'}
+ProjectManager {имя 'Scott ', фамилия 'Johnson ', зарплата в час 60.0, project='Online-Store'}
+	Team on project "Online-Store"
+manager = ProjectManager {имя 'Scott ', фамилия 'Johnson ', зарплата в час 60.0, project='Online-Store'},
+engineers = 
+Разработчик {имя 'John ', фамилия 'Conor ', зарплата в час 50.0, уровень = MIDDLE, направление = BACK_END, навык ='Java'}
+Разработчик {имя 'Jack ', фамилия 'Gilbert ', зарплата в час 52.0, уровень = SENIOR, направление = FRONT_END, навык ='HTML'}
+Tester {имя 'Alex ', фамилия 'Miller ', зарплата в час 30.0, уровень = MIDDLE, testerType=MANUAL}
+Tester {имя 'Hailey ', фамилия 'Conor ', зарплата в час 34.0, уровень = SENIOR, testerType=AUTOMATION}
+	Team on project "Game"
+manager = ProjectManager {имя 'Martin ', фамилия 'Thompson ', зарплата в час 51.0, project='Game'},
+engineers = 
+Разработчик {имя 'Donald ', фамилия 'Freeman ', зарплата в час 46.0, уровень = MIDDLE, направление = BACK_END, навык ='C++'}
+Разработчик {имя 'Jack ', фамилия 'Harrison ', зарплата в час 32.0, уровень = JUNIOR, направление = FRONT_END, навык ='CSS'}
+Tester {имя 'Tom ', фамилия 'Gibbs ', зарплата в час 25.0, уровень = JUNIOR, testerType=MANUAL}
+Tester {имя 'Oliver ', фамилия 'Watson ', зарплата в час 31.0, уровень = MIDDLE, testerType=AUTOMATION}
+
+2019-03-20 17:49:34 INFO  root:44 - sorting by surname and salary is successful
+2019-03-20 17:49:34 INFO  root:11 - 	Sorting employees by surname and salary:
+2019-03-20 17:49:34 INFO  root:11 - 	ITCompany
+Разработчик {имя 'Carroll ', фамилия 'Anderson ', зарплата в час 48.0, уровень = SENIOR, направление = FRONT_END, навык ='JavaScript'}
+Tester {имя 'Hailey ', фамилия 'Conor ', зарплата в час 34.0, уровень = SENIOR, testerType=AUTOMATION}
+Разработчик {имя 'John ', фамилия 'Conor ', зарплата в час 50.0, уровень = MIDDLE, направление = BACK_END, навык ='Java'}
+Разработчик {имя 'Donald ', фамилия 'Freeman ', зарплата в час 46.0, уровень = MIDDLE, направление = BACK_END, навык ='C++'}
+Tester {имя 'Tom ', фамилия 'Gibbs ', зарплата в час 25.0, уровень = JUNIOR, testerType=MANUAL}
+Разработчик {имя 'Jack ', фамилия 'Gilbert ', зарплата в час 52.0, уровень = SENIOR, направление = FRONT_END, навык ='HTML'}
+Разработчик {имя 'Jack ', фамилия 'Harrison ', зарплата в час 32.0, уровень = JUNIOR, направление = FRONT_END, навык ='CSS'}
+ProjectManager {имя 'Scott ', фамилия 'Johnson ', зарплата в час 60.0, project='Online-Store'}
+Tester {имя 'Alex ', фамилия 'Miller ', зарплата в час 30.0, уровень = MIDDLE, testerType=MANUAL}
+Разработчик {имя 'Cris ', фамилия 'Norman ', зарплата в час 42.0, уровень = MIDDLE, направление = BACK_END, навык ='Python'}
+ProjectManager {имя 'Martin ', фамилия 'Thompson ', зарплата в час 51.0, project='Game'}
+Tester {имя 'Oliver ', фамилия 'Watson ', зарплата в час 31.0, уровень = MIDDLE, testerType=AUTOMATION}
+	Team on project "Online-Store"
+manager = ProjectManager {имя 'Scott ', фамилия 'Johnson ', зарплата в час 60.0, project='Online-Store'},
+engineers = 
+Разработчик {имя 'John ', фамилия 'Conor ', зарплата в час 50.0, уровень = MIDDLE, направление = BACK_END, навык ='Java'}
+Разработчик {имя 'Jack ', фамилия 'Gilbert ', зарплата в час 52.0, уровень = SENIOR, направление = FRONT_END, навык ='HTML'}
+Tester {имя 'Alex ', фамилия 'Miller ', зарплата в час 30.0, уровень = MIDDLE, testerType=MANUAL}
+Tester {имя 'Hailey ', фамилия 'Conor ', зарплата в час 34.0, уровень = SENIOR, testerType=AUTOMATION}
+	Team on project "Game"
+manager = ProjectManager {имя 'Martin ', фамилия 'Thompson ', зарплата в час 51.0, project='Game'},
+engineers = 
+Разработчик {имя 'Donald ', фамилия 'Freeman ', зарплата в час 46.0, уровень = MIDDLE, направление = BACK_END, навык ='C++'}
+Разработчик {имя 'Jack ', фамилия 'Harrison ', зарплата в час 32.0, уровень = JUNIOR, направление = FRONT_END, навык ='CSS'}
+Tester {имя 'Tom ', фамилия 'Gibbs ', зарплата в час 25.0, уровень = JUNIOR, testerType=MANUAL}
+Tester {имя 'Oliver ', фамилия 'Watson ', зарплата в час 31.0, уровень = MIDDLE, testerType=AUTOMATION}
+
+2019-03-20 17:49:34 INFO  root:11 - 	Find all employees by surname:
+2019-03-20 17:49:34 INFO  root:44 - method findAllEmployeeBySurname is successful
+2019-03-20 17:49:34 INFO  root:11 - [Tester {имя 'Hailey ', фамилия 'Conor ', зарплата в час 34.0, уровень = SENIOR, testerType=AUTOMATION}, Разработчик {имя 'John ', фамилия 'Conor ', зарплата в час 50.0, уровень = MIDDLE, направление = BACK_END, навык ='Java'}]
+2019-03-20 17:49:34 INFO  root:39 - method findMaxSalary is successful
+2019-03-20 17:49:34 INFO  root:11 - 	Max salary is: 60.0
+2019-03-20 17:49:34 INFO  root:11 - 	Employee with max salary is:
+2019-03-20 17:49:34 INFO  root:39 - method findMaxSalary is successful
+2019-03-20 17:49:34 INFO  root:41 - method findEmployeeByMaxSalary is successful
+2019-03-20 17:49:34 INFO  root:11 - ProjectManager {имя 'Scott ', фамилия 'Johnson ', зарплата в час 60.0, project='Online-Store'}
+2019-03-20 17:49:34 INFO  root:11 - 	Employee by type TESTER:
+2019-03-20 17:49:34 INFO  root:45 - method findEmployeeByType is successful
+2019-03-20 17:49:34 INFO  root:11 - [Tester {имя 'Hailey ', фамилия 'Conor ', зарплата в час 34.0, уровень = SENIOR, testerType=AUTOMATION}, Tester {имя 'Tom ', фамилия 'Gibbs ', зарплата в час 25.0, уровень = JUNIOR, testerType=MANUAL}, Tester {имя 'Alex ', фамилия 'Miller ', зарплата в час 30.0, уровень = MIDDLE, testerType=MANUAL}, Tester {имя 'Oliver ', фамилия 'Watson ', зарплата в час 31.0, уровень = MIDDLE, testerType=AUTOMATION}]
+2019-03-20 17:49:34 INFO  root:11 - 	Employee by type PROJECT_MANAGER:
+2019-03-20 17:49:34 INFO  root:45 - method findEmployeeByType is successful
+2019-03-20 17:49:34 INFO  root:11 - [ProjectManager {имя 'Scott ', фамилия 'Johnson ', зарплата в час 60.0, project='Online-Store'}, ProjectManager {имя 'Martin ', фамилия 'Thompson ', зарплата в час 51.0, project='Game'}]
+2019-03-20 17:49:34 INFO  root:11 - 	Employee by type DEVELOPER:
+2019-03-20 17:49:34 INFO  root:45 - method findEmployeeByType is successful
+2019-03-20 17:49:34 INFO  root:11 - [Разработчик {имя 'Carroll ', фамилия 'Anderson ', зарплата в час 48.0, уровень = SENIOR, направление = FRONT_END, навык ='JavaScript'}, Разработчик {имя 'John ', фамилия 'Conor ', зарплата в час 50.0, уровень = MIDDLE, направление = BACK_END, навык ='Java'}, Разработчик {имя 'Donald ', фамилия 'Freeman ', зарплата в час 46.0, уровень = MIDDLE, направление = BACK_END, навык ='C++'}, Разработчик {имя 'Jack ', фамилия 'Gilbert ', зарплата в час 52.0, уровень = SENIOR, направление = FRONT_END, навык ='HTML'}, Разработчик {имя 'Jack ', фамилия 'Harrison ', зарплата в час 32.0, уровень = JUNIOR, направление = FRONT_END, навык ='CSS'}, Разработчик {имя 'Cris ', фамилия 'Norman ', зарплата в час 42.0, уровень = MIDDLE, направление = BACK_END, навык ='Python'}]
+2019-03-20 17:49:34 INFO  root:124 - the end
+2019-03-20 17:50:26 INFO  root:45 - printer created 
+2019-03-20 17:50:26 INFO  root:70 - teams added
+2019-03-20 17:50:26 INFO  root:33 - sorting by salary is successful
+2019-03-20 17:50:26 INFO  root:44 - sorting by surname and salary is successful
+2019-03-20 17:50:26 INFO  root:44 - method findAllEmployeeBySurname is successful
+2019-03-20 17:50:26 INFO  root:39 - method findMaxSalary is successful
+2019-03-20 17:50:26 INFO  root:39 - method findMaxSalary is successful
+2019-03-20 17:50:26 INFO  root:41 - method findEmployeeByMaxSalary is successful
+2019-03-20 17:50:26 INFO  root:45 - method findEmployeeByType is successful
+2019-03-20 17:50:26 INFO  root:45 - method findEmployeeByType is successful
+2019-03-20 17:50:26 INFO  root:45 - method findEmployeeByType is successful
+2019-03-20 17:50:26 INFO  root:124 - the end
+2019-03-22 19:19:41 INFO  root:45 - printer created 
+2019-03-22 19:19:41 INFO  root:70 - teams added
+2019-03-22 19:19:41 INFO  root:33 - sorting by salary is successful
+2019-03-22 19:19:41 INFO  root:44 - sorting by surname and salary is successful
+2019-03-22 19:19:41 INFO  root:44 - method findAllEmployeeBySurname is successful
+2019-03-22 19:19:41 INFO  root:39 - method findMaxSalary is successful
+2019-03-22 19:19:41 INFO  root:39 - method findMaxSalary is successful
+2019-03-22 19:19:41 INFO  root:41 - method findEmployeeByMaxSalary is successful
+2019-03-22 19:19:41 INFO  root:45 - method findEmployeeByType is successful
+2019-03-22 19:19:41 INFO  root:45 - method findEmployeeByType is successful
+2019-03-22 19:19:41 INFO  root:45 - method findEmployeeByType is successful
+2019-03-22 19:19:41 INFO  root:124 - the end
+2019-03-22 19:30:31 INFO  root:45 - printer created 
+2019-03-22 19:30:31 INFO  root:70 - teams added
+2019-03-22 19:30:32 INFO  root:33 - sorting by salary is successful
+2019-03-22 19:30:32 INFO  root:44 - sorting by surname and salary is successful
+2019-03-22 19:30:32 INFO  root:44 - method findAllEmployeeBySurname is successful
+2019-03-22 19:30:32 INFO  root:39 - method findMaxSalary is successful
+2019-03-22 19:30:32 INFO  root:39 - method findMaxSalary is successful
+2019-03-22 19:30:32 INFO  root:41 - method findEmployeeByMaxSalary is successful
+2019-03-22 19:30:32 INFO  root:45 - method findEmployeeByType is successful
+2019-03-22 19:30:32 INFO  root:45 - method findEmployeeByType is successful
+2019-03-22 19:30:32 INFO  root:45 - method findEmployeeByType is successful
+2019-03-22 19:30:32 INFO  root:124 - the end
+2019-03-23 12:48:55 INFO  root:45 - printer created 
+2019-03-23 12:48:55 INFO  root:70 - teams added
+2019-03-23 12:48:56 INFO  root:33 - sorting by salary is successful
+2019-03-23 12:48:56 INFO  root:44 - sorting by surname and salary is successful
+2019-03-23 12:48:56 INFO  root:46 - method findAllEmployeeBySurname is successful
+2019-03-23 12:48:56 INFO  root:39 - method findMaxSalary is successful
+2019-03-23 12:48:56 INFO  root:39 - method findMaxSalary is successful
+2019-03-23 12:48:56 INFO  root:41 - method findEmployeeByMaxSalary is successful
+2019-03-23 12:48:56 INFO  root:45 - method findEmployeeByType is successful
+2019-03-23 12:48:56 INFO  root:45 - method findEmployeeByType is successful
+2019-03-23 12:48:56 INFO  root:45 - method findEmployeeByType is successful
+2019-03-23 12:48:56 INFO  root:124 - the end
+2019-03-28 23:43:59 INFO  root:45 - printer created 
+2019-03-28 23:43:59 INFO  root:70 - teams added
+2019-03-28 23:43:59 INFO  root:33 - sorting by salary is successful
+2019-03-28 23:43:59 INFO  root:44 - sorting by surname and salary is successful
+2019-03-28 23:43:59 INFO  root:46 - method findAllEmployeeBySurname is successful
+2019-03-28 23:43:59 INFO  root:39 - method findMaxSalary is successful
+2019-03-28 23:43:59 INFO  root:39 - method findMaxSalary is successful
+2019-03-28 23:43:59 INFO  root:41 - method findEmployeeByMaxSalary is successful
+2019-03-28 23:43:59 INFO  root:45 - method findEmployeeByType is successful
+2019-03-28 23:43:59 INFO  root:45 - method findEmployeeByType is successful
+2019-03-28 23:43:59 INFO  root:45 - method findEmployeeByType is successful
+2019-03-28 23:43:59 INFO  root:124 - the end
+2019-04-19 17:17:59 INFO  root:45 - printer created 
+2019-04-19 17:17:59 INFO  root:70 - teams added
+2019-04-19 17:17:59 INFO  root:33 - sorting by salary is successful
+2019-04-19 17:17:59 INFO  root:44 - sorting by surname and salary is successful
+2019-04-19 17:17:59 INFO  root:46 - method findAllEmployeeBySurname is successful
+2019-04-19 17:17:59 INFO  root:39 - method findMaxSalary is successful
+2019-04-19 17:17:59 INFO  root:39 - method findMaxSalary is successful
+2019-04-19 17:17:59 INFO  root:41 - method findEmployeeByMaxSalary is successful
+2019-04-19 17:17:59 INFO  root:45 - method findEmployeeByType is successful
+2019-04-19 17:17:59 INFO  root:45 - method findEmployeeByType is successful
+2019-04-19 17:17:59 INFO  root:45 - method findEmployeeByType is successful
+2019-04-19 17:17:59 INFO  root:124 - the end
+2019-04-19 17:24:56 INFO  root:45 - printer created 
+2019-04-19 17:24:56 INFO  root:70 - teams added
+2019-04-19 17:24:56 INFO  root:33 - sorting by salary is successful
+2019-04-19 17:24:57 INFO  root:44 - sorting by surname and salary is successful
+2019-04-19 17:24:57 INFO  root:46 - method findAllEmployeeBySurname is successful
+2019-04-19 17:24:57 INFO  root:39 - method findMaxSalary is successful
+2019-04-19 17:24:57 INFO  root:39 - method findMaxSalary is successful
+2019-04-19 17:24:57 INFO  root:41 - method findEmployeeByMaxSalary is successful
+2019-04-19 17:24:57 INFO  root:45 - method findEmployeeByType is successful
+2019-04-19 17:24:57 INFO  root:45 - method findEmployeeByType is successful
+2019-04-19 17:24:57 INFO  root:45 - method findEmployeeByType is successful
+2019-04-19 17:24:57 INFO  root:124 - the end
+2019-04-19 17:30:15 INFO  root:53 - printer created 
+2019-04-19 17:30:15 TRACE root:20 - Reading text rom file... InputData.txt
+2019-04-19 17:30:15 TRACE root:20 - Validating text...
+2019-04-19 17:32:22 INFO  root:53 - printer created 
+2019-04-19 17:32:22 TRACE root:20 - Reading text rom file... InputData.txt
+2019-04-19 17:32:22 TRACE root:20 - Validating text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 TRACE root:66 - Parsing text...
+2019-04-19 17:32:22 INFO  root:80 - teams added
+2019-04-19 17:32:22 ERROR root:24 - java.io.NotSerializableException: by.epam.minchuk.task1.util.collection.collectionImpl.MyArrayList
+2019-04-19 17:33:50 INFO  root:53 - printer created 
+2019-04-19 17:33:50 TRACE root:20 - Reading text rom file... InputData.txt
+2019-04-19 17:33:50 TRACE root:20 - Validating text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 TRACE root:66 - Parsing text...
+2019-04-19 17:33:50 INFO  root:80 - teams added
+2019-04-19 17:33:50 ERROR root:24 - java.io.NotSerializableException: by.epam.minchuk.task1.util.collection.collectionImpl.MyArrayList
+2019-04-19 17:34:22 INFO  root:53 - printer created 
+2019-04-19 17:34:22 TRACE root:20 - Reading text rom file... InputData.txt
+2019-04-19 17:34:22 TRACE root:20 - Validating text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 TRACE root:66 - Parsing text...
+2019-04-19 17:34:22 INFO  root:80 - teams added
